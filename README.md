@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sanjib Kumar Sen</h1>
 <h3 align="center">A Computer Science Researcher, Cloud Engineer & Software Developer who loves to Develop, Analyze and Innovate</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sanjib-sen" alt="sanjib-sen" /></a> </p>
+<p align="left"> <a href="https://github.com/sanjib-sen/sanjib-sen"><img src="https://github-profile-trophy.vercel.app/?username=sanjib-sen&theme=onedark" alt="sanjib-sen" /></a> </p>
 
 - 🔭 I’m currently working on [WebLaTex](sanjibsen.com/weblatex)
 
@@ -37,6 +37,6 @@
 
 <br>
 
-[![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
- [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
- [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/0-profile-details.svg)](https://github.com/sanjib-sen/sanjib-sen)
+ [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/1-repos-per-language.svg)](https://github.com/sanjib-sen/sanjib-sen) [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/2-most-commit-language.svg)](https://github.com/sanjib-sen/sanjib-sen)
+ [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/3-stats.svg)](https://github.com/sanjib-sen/sanjib-sen) [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/4-productive-time.svg)](https://github.com/sanjib-sen/sanjib-sen)
