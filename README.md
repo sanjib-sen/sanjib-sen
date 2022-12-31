@@ -9,17 +9,17 @@
  
 </div>
  
-- 🔭 I’m currently working on [WebLaTex](sanjibsen.com/weblatex)
+- 🔭 I’m currently working on [WebLaTex](https://sanjibsen.com/weblatex)
 
-- 🤝 I’m looking for help with [ride-with-bracu](github.com/sanjib-sen/ride-with-bracu)
+- 🤝 I’m looking for help with [ride-with-bracu](https://github.com/sanjib-sen/ride-with-bracu)
 
-- 👨‍💻 All of my projects are available at [sanjibsen.com/projects](sanjibsen.com/projects)
+- 👨‍💻 All of my projects are available at [sanjibsen.com/projects](https://sanjibsen.com/projects)
 
-- 📝 I regularly write articles on [sanjibsen.com](sanjibsen.com)
+- 📝 I regularly write articles on [sanjibsen.com](https://sanjibsen.com)
 
-- 📫 Reach me at **mail@sanjibsen.com**
+- 📫 Reach me at [**mail@sanjibsen.com**](mailto:mail@sanjibsen.com)
 
-- 📄 Check my resume from [sanjibsen.com/resume](sanjibsen.com/resume)
+- 📄 Check my resume from [sanjibsen.com/resume](https://sanjibsen.com/resume)
 
 - ⚡ Fun fact **Did you know that the secret sauce of the universe is :q! ?!**
 
