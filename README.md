@@ -41,8 +41,6 @@
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/sanjibsen"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="sanjibsen" /></a></p><br><br>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sanjib-sen&show_icons=true&locale=en&layout=compact" alt="sanjib-sen" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sanjib-sen&show_icons=true&locale=en" alt="sanjib-sen" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sanjib-sen&" alt="sanjib-sen" /></p>
+[![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+ [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+ [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
