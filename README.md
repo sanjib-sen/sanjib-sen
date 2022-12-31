@@ -1,6 +1,14 @@
 <h1 align="center">Hi 👋, I'm Sanjib Kumar Sen</h1>
 <h3 align="center">A Computer Science Researcher, Cloud Engineer & Software Developer who loves to Develop, Analyze and Innovate</h3>
 
+<div align="center">
+ 
+[![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/0-profile-details.svg)](https://github.com/sanjib-sen/sanjib-sen)
+ [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/1-repos-per-language.svg)](https://github.com/sanjib-sen/sanjib-sen) [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/2-most-commit-language.svg)](https://github.com/sanjib-sen/sanjib-sen)
+ [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/3-stats.svg)](https://github.com/sanjib-sen/sanjib-sen) [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/4-productive-time.svg)](https://github.com/sanjib-sen/sanjib-sen)
+ 
+</div>
+ 
 - 🔭 I’m currently working on [WebLaTex](sanjibsen.com/weblatex)
 
 - 🤝 I’m looking for help with [ride-with-bracu](github.com/sanjib-sen/ride-with-bracu)
@@ -32,9 +40,3 @@
 
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/sanjibsen"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="sanjibsen" /></a></p><br><br>
-
-<br>
-
-[![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/0-profile-details.svg)](https://github.com/sanjib-sen/sanjib-sen)
- [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/1-repos-per-language.svg)](https://github.com/sanjib-sen/sanjib-sen) [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/2-most-commit-language.svg)](https://github.com/sanjib-sen/sanjib-sen)
- [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/3-stats.svg)](https://github.com/sanjib-sen/sanjib-sen) [![](https://raw.githubusercontent.com/sanjib-sen/sanjib-sen/master/profile-summary-card-output/github_dark/4-productive-time.svg)](https://github.com/sanjib-sen/sanjib-sen)
