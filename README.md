@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Sanjib Kumar Sen</h1>
 <h3 align="center">A Computer Science Researcher, Cloud Engineer & Software Developer who loves to Develop, Analyze and Innovate</h3>
 
-<p align="left"> <a href="https://github.com/sanjib-sen/sanjib-sen"><img src="https://github-profile-trophy.vercel.app/?username=sanjib-sen&theme=onedark" alt="sanjib-sen" /></a> </p>
-
 - 🔭 I’m currently working on [WebLaTex](sanjibsen.com/weblatex)
 
 - 🤝 I’m looking for help with [ride-with-bracu](github.com/sanjib-sen/ride-with-bracu)
