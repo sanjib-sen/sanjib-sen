@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sanjib Kumar Sen</h1>
-<h3 align="center">A Software Developer, Cloud Engineer who loves to research and development</h3>
+<h3 align="center">A Computer Science Researcher, Cloud Engineer & Software Developer who loves to Develop, Analyze and Innovate</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sanjib-sen" alt="sanjib-sen" /></a> </p>
 
