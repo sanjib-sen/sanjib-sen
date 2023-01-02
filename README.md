@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sanjib Kumar Sen</h1>
-<h3 align="center">A Computer Science Researcher & Software Developer who loves to Develop, Analyze and Innovate</h3>
+<h3 align="center">A Software Developer who loves to Develop, Analyze and Innovate</h3>
 
 <div align="center">
  
