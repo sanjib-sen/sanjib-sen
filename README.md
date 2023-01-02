@@ -9,6 +9,9 @@
  
 </div>
  
+
+<div align="center">
+ 
 - 🔭 I’m currently working on [WebLaTex](https://sanjibsen.com/weblatex)
 
 - 🤝 I’m looking for help with [ride-with-bracu](https://github.com/sanjib-sen/ride-with-bracu)
@@ -23,6 +26,9 @@
 
 - ⚡ Fun fact **Did you know that the secret sauce of the universe is :q! ?!**
 
+ </div>
+ 
+ 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
 <a href="https://linkedin.com/in/sanjibsen" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sanjibsen" height="30" width="40" /></a>
