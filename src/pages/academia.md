@@ -1,12 +1,8 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
-activeNav: "about"
+title: "Academia"
+activeNav: "academia"
 ---
-
-2️⃣ Full Time Jobs
-
-2️⃣ SWE Internships
 
 1️⃣ Conference
 
@@ -25,58 +21,6 @@ activeNav: "about"
 ---
 
 ⬇️ To Download my Resume as PDF, Visit: [github.com/sanjib-sen/resume](https://github.com/sanjib-sen/resume)
-
----
-
-# **\*👩🏻‍💻** Development Experience\*
-
-### Full Stack Software Engineer
-
-Project Waitless _– (Feb 2023 - Dec 2023) - London_, UK
-
-`DevOps` `NextJS` `Docker` `NodeJS` `TailwindCSS` `Redis` `Kafka`
-
-> I was responsible for creating Web applications including Admin Portal and Dashboard, Discord-Slack-Team bots and DevOps
-
-- Created custom flow scripts to replicate real-world scenarios of inventory management procedures of Europe’s popular Bars, Pubs, Clubs, and Restaurants and populated Time Series Database with Upstash Kafka clusters which resulted in over 0.5 million inventory stock data updates streamed in 7 months
-- Built scraper and automation tools using NodeJS Puppeteer and Python Selenium which collected 100k+ venue data and filtered 70k+ duplicates using Google’s Geolocation API
-- Created a customizable interactive dashboard with draggable widgets and insight charts with real-time dynamic data using NextJS, MaterialUI, shadcn/ui and recharts
-- Developed large-scale monorepo using turborepo and Docker containers consisting of web services including admin portal, bot services for slack+discord, server actions for database, cronjobs to automatically post JIRA updates triggering significant increment in productivity
-- Created conversation-based CRM solutions with wiki and GPT support using OpenAi API
-
-### Full Stack Developer
-
-**\*bevycommerce** – (Aug 2022 - Dec 2022) -\* Toronto, Canada
-
-`Shopify` `NextJS` `GraphQL` `Redux`
-
-> I was responsible for making Shopify Apps (both Frontend and Backend) and maintain existing apps based on clients’ needs
-
-- Built share-my-cart Shopify extension using vanilla javascript, react, and redux which generated 12k+ clicks, and 400k$+ revenue in sales by Shopify merchants
-- Developed a preview-enabled CSS editor for styling and customizing Shopify web components from the extension dashboard using NextJS
-- Replaced Context APIs with Redux-toolkit states and reducers to solve an increasing number of shared states usage problem
-
-### Software Engineer Intern
-
-**\*penguin.com.bd** – (Mar. 2021 - Jun. 2021) **- Dhaka, Bangladesh\***
-
-`Java` `Springboot` `ReactJS` `NextJS` `REST`
-
-> I was responsible for creating a backend infrastructure for an ecommerce platform
-
-- Created the backend architecture by following the MVC software design pattern to build the country’s top-growing E-commerce platform which led to 33k monthly users
-- Migrated existing REST API to GRPC which improved the performance of internal microservice API calls by 1.5x
-
-### Software Engineer Intern
-
-**\*Online Sohopathi** – (Dec. 2021 - Apr. 2021) **- Dhaka, Bangladesh\***
-
-`NextJS` `TypeScript` `Python` `MongoDB`
-
-> I was responsible for creating a backend infrastructure and refactoring outdated codes for an ed-tech platform
-
-- Developed the backend services with a permission-based manual authentication flow of 600k users
-- Developed scripts for MongoDB collection migration and schema validation which saved 40+ Engineering hours
 
 ---
 
@@ -250,7 +194,7 @@ Others: `Problem Solving`, `Git`, `Linux`, `Web Scraping`, `Automation`
 
 <!-- ![Presenting our research at International Conference on Network Systems and Security (NSysS 2021)](Resume%20624beb81d829441488cd6dbe4267c3b7/Untitled.png) -->
 
-Presenting our research at International Conference on Network Systems and Security (NSysS 2021)
+<!-- Presenting our research at International Conference on Network Systems and Security (NSysS 2021) -->
 
 - **(2021) Champion:** Competitive Programming Contest Organized by Sohopathi, out of 3500 candidates
 - **(2020, 2021) Top 3:** Intra-University Competitive Programming Contest, BRAC University

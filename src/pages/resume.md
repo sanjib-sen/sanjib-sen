@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/AboutLayout.astro
 title: "About"
-activeNav: "about"
+activeNav: "resume"
 ---
 
 2️⃣ Full Time Jobs

@@ -9,13 +9,40 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
+import { SITE } from "@config";
 
 const posts = await getCollection("blog");
 
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
-
+const rootLinks: { desc: string; href: string; title: string }[] = [
+  {
+    desc: "Sanjib Kumar Sen's Resume",
+    href: "/about",
+    title: "Resume",
+  },
+  {
+    desc: "All Projects Developed by Sanjib Kumar Sen",
+    href: "/projects",
+    title: "Projects",
+  },
+  {
+    desc: "If you are a student of mine, click here",
+    href: "/students",
+    title: "Students",
+  },
+  {
+    title: "Blogs",
+    href: "/blogs",
+    desc: "A storage for my random thoughs and ideas",
+  },
+  {
+    title: "Moments",
+    href: "/moments",
+    desc: "Some moments I cherish",
+  },
+];
 const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
@@ -23,7 +50,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>{SITE.author}</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -42,19 +69,20 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        Hello World 👋,
+        <br />
+        Welcome to a world where creativity meets innovation. I'm Sanjib Kumar Sen,
+        a Researcher, Software Developer, and Linux, OS and Programming Enthusiast
+        who loves to Develop, Analyze and Innovate.
       </p>
       <p>
-        Read the blog posts or check
+        Check out the
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
           href="https://github.com/satnaing/astro-paper#readme"
         >
-          README
-        </LinkButton> for more info.
+          about
+        </LinkButton> to learn more about me.
       </p>
       {
         // only display if at least one social link is enabled
@@ -69,25 +97,28 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
     <Hr />
 
-    {
-      featuredPosts.length > 0 && (
-        <>
-          <section id="featured">
-            <h2>Featured</h2>
-            <ul>
-              {featuredPosts.map(({ data, slug }) => (
-                <Card
-                  href={`/posts/${slug}/`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              ))}
-            </ul>
-          </section>
-          {recentPosts.length > 0 && <Hr />}
-        </>
-      )
-    }
+    <section id="featured">
+      <h2 class="pb-4">Featured</h2>
+      <ul class="space-y-3">
+        {
+          rootLinks.map(link => (
+            <li class="sm:grid-follow-col grid grid-flow-row gap-1 sm:grid-cols-8">
+              <span class="flex sm:justify-end">
+                <a
+                  class="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+                  href={link.href}
+                >
+                  {link.title}
+                </a>
+                :
+              </span>
+              <span class="sm:col-span-7">{link.desc}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+    {recentPosts.length > 0 && <Hr />}
 
     {
       recentPosts.length > 0 && (

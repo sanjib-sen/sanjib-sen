@@ -5,7 +5,7 @@ import PostDetails from "@layouts/PostDetails.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import getPageNumbers from "@utils/getPageNumbers";
 import getPagination from "@utils/getPagination";
-
+import getPostsWithRT from "@utils/getPostsWithRT";
 export interface Props {
   post: CollectionEntry<"blog">;
 }
@@ -13,7 +13,10 @@ export interface Props {
 export async function getStaticPaths() {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
 
-  const postResult = posts.map(post => ({
+  const postsWithRT = await getPostsWithRT(posts); // replace reading time logic with this func
+
+  const postResult = postsWithRT.map(post => ({
+    // make sure to replace posts with postsWithRT
     params: { slug: post.slug },
     props: { post },
   }));
