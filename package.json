@@ -12,7 +12,7 @@
     "format:check": "prettier --check . --plugin=prettier-plugin-astro",
     "format": "prettier --write . --plugin=prettier-plugin-astro",
     "cz": "cz",
-    "prepare": "husky install",
+    "prepare": "husky",
     "lint": "eslint ."
   },
   "dependencies": {
@@ -27,6 +27,7 @@
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
     "satori": "^0.10.13",
+    "sharp": "^0.33.3",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.3"
   },
