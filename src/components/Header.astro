@@ -68,14 +68,14 @@ const { activeNav } = Astro.props;
             </a>
           </li> -->
           <li>
-            <a href="/about/" class={activeNav === "about" ? "active" : ""}>
+            <a href="/about/" class:list={{ active: activeNav === "about" }}>
               About
             </a>
           </li>
           <li>
             <a
               href="/academia/"
-              class={activeNav === "academia" ? "active" : ""}
+              class:list={{ active: activeNav === "academia" }}
             >
               Academia
             </a>
@@ -83,13 +83,13 @@ const { activeNav } = Astro.props;
           <li>
             <a
               href="/development/"
-              class={activeNav === "development" ? "active" : ""}
+              class:list={{ active: activeNav === "development" }}
             >
               Development
             </a>
           </li>
           <li>
-            <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
+            <a href="/posts/" class:list={{ active: activeNav === "posts" }}>
               Posts
             </a>
           </li>

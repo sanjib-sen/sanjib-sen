@@ -20,6 +20,7 @@
     "@astrojs/rss": "^4.0.5",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^4.5.16",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "fuse.js": "^7.0.0",
     "github-slugger": "^2.0.0",
     "mdast-util-to-string": "^4.0.0",
