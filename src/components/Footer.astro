@@ -11,7 +11,7 @@ export interface Props {
 const { noMarginTop = false } = Astro.props;
 ---
 
-<footer class={`${noMarginTop ? "" : "mt-auto"}`}>
+<footer class:list={{ "mt-auto": !noMarginTop }}>
   <Hr noPadding />
   <div class="footer-wrapper">
     <Socials centered />
