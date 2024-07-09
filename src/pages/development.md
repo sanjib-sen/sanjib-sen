@@ -4,25 +4,19 @@ title: "Development"
 activeNav: "development"
 ---
 
-### Table of contents
+## Table of contents
 
-2️⃣ Full Time Jobs
+##
 
-2️⃣ SWE Internships
-
-🔟 + Projects
+> ⬇️ To Download my Resume as PDF, Visit: [github.com/sanjib-sen/resume](https://github.com/sanjib-sen/resume)
 
 ---
 
-⬇️ To Download my Resume as PDF, Visit: [github.com/sanjib-sen/resume](https://github.com/sanjib-sen/resume)
-
----
-
-## **\*👩🏻‍💻** Experience\*
+## 👩🏻‍💻 Experience
 
 ### Full Stack Software Engineer
 
-Project Waitless _– (Feb 2023 - Dec 2023) - London_, UK
+Project Waitless – (Feb 2023 - Dec 2023) - London\_, UK
 
 `DevOps` `NextJS` `Docker` `NodeJS` `TailwindCSS` `Redis` `Kafka`
 
@@ -36,7 +30,7 @@ Project Waitless _– (Feb 2023 - Dec 2023) - London_, UK
 
 ### Full Stack Developer
 
-**\*bevycommerce** – (Aug 2022 - Dec 2022) -\* Toronto, Canada
+bevycommerce – (Aug 2022 - Dec 2022) - Toronto, Canada
 
 `Shopify` `NextJS` `GraphQL` `Redux`
 
@@ -48,7 +42,7 @@ Project Waitless _– (Feb 2023 - Dec 2023) - London_, UK
 
 ### Software Engineer Intern
 
-**\*penguin.com.bd** – (Mar. 2021 - Jun. 2021) **- Dhaka, Bangladesh\***
+penguin.com.bd – (Mar. 2021 - Jun. 2021) - Dhaka, Bangladesh
 
 `Java` `Springboot` `ReactJS` `NextJS` `REST`
 
@@ -59,7 +53,7 @@ Project Waitless _– (Feb 2023 - Dec 2023) - London_, UK
 
 ### Software Engineer Intern
 
-**\*Online Sohopathi** – (Dec. 2021 - Apr. 2021) **- Dhaka, Bangladesh\***
+Online Sohopathi\*\* – (Dec. 2021 - Apr. 2021) - Dhaka, Bangladesh
 
 `NextJS` `TypeScript` `Python` `MongoDB`
 

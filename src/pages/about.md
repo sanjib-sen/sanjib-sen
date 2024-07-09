@@ -4,17 +4,17 @@ title: "About"
 activeNav: "about"
 ---
 
-2️⃣ Full Time Jobs
+3 Full Time Jobs
 
 2️⃣ SWE Internships
 
-1️⃣ Conference
+2 Conference
 
-2️⃣ Research Assistantships
+1 Research Assistantships
 
-4️⃣ Student Tutorships
+2 Student Tutorships
 
-4️⃣ Research Works
+3 Research Works
 
 🔟 + Projects
 
