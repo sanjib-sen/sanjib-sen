@@ -8,8 +8,6 @@ activeNav: "academia"
 
 ## Table of contents
 
-##
-
 ---
 
 ## 📚 Education
@@ -45,6 +43,18 @@ BRAC University, Dhaka – (Apr. 2019 - Jan. 2023)
 9th International Conference on Networking, Systems and Security - (Dec. 2021) - Cox's Bazar, Bangladesh
 
 - Presented a paper on the topic of **Fighting Depression: Psychological Approaches among Bangladeshi Students**
+
+<figure>
+  <img
+    className="figimage"
+    src="https://www.sanjibsen.com/_next/image?url=https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fprod-files-secure.s3.us-west-2.amazonaws.com%252F1225f69d-9773-4816-8f22-dd81d969a0ca%252Fc11b0b30-b804-42be-a1be-280cb4662a5b%252Fnsys.png%3Ftable%3Dblock%26id%3D8ef802c1-e0ac-468e-b8d0-5c7040c1c10e%26cache%3Dv2&w=2048&q=75"
+    alt="NSYSS 2021"
+  />
+  <figcaption>
+    Presenting our paper at NSYSS 2021
+  </figcaption>
+</figure>
+
 - Our student poster on the same topic was selected as one of the **Top 10** student posters
 
 ---
@@ -129,89 +139,25 @@ BRAC University Computer Club – (Apr. 2019 - Aug 2022) - Dhaka, Bangladesh
 
 ---
 
-# 🤖 Projects
+## 🤖 Projects
 
-## [envshh](https://www.notion.so/envshh-a3b4200beee34258a4f79f139109e826?pvs=21)
-
-[envshh - .envs made easy](http://envshh.js.org)
-
-A command line tool to securely and automatically manage, store environment variables.
-
-`Typescript` `NodeJS` `Crypto` `AES` `CyberSecurity` `Git`
-
-- A command-line app that is used to securely and automatically manage environment variables with version control
-- Has over 50+ weekly downloads and has been used by developers from Vercel, Nextjs, trpc, etc.
-
-## [WebLaTex](https://www.notion.so/The-WebLaTex-858b2a278cc94f70820af51cc495c3a0?pvs=21)
-
-A complete alternative for Overleaf with VSCode + Web + Git Integration + Grammarly + Live Collaboration Support
-
-`Docker` `GitHub` `Codepaces` `Container` `LaTex` `Cloud`
-
-- Combined the concept of Docker containers and GitHub Codespaces to build an all-in-one LaTeX IDE with VSCode on the Web + Git + Grammar & Spelling Checker + Live Collaboration support which was trending on GitHub
-- It has been used by over 5700 university professors, researchers, and students from top universities of the world including MIT, Harvard, UCLA, UBC, University of Cambridge, ETH Zurich, industry professionals, and consumers
-
-## Ride With BRACU
-
-A Ride Sharing app only for BRAC University Students
-
-`Typescript` `TailwindCSS` `NextJS` `Prisma` `SWR`
-
-- Used **sessionStorage** as a middleware for fetching and sending data before DB queries which reduced the need of using frequent DB queries as well as improved the performance by 10x
-
-## stream-music-cli
-
-A command line app where users can search and play YouTube videos instantly with Voice Recognition and text commands
-
-`Python` `speech-recognition` `Bash` `pytube`
-
-- Fixed a microphone not working bug in Linux by dumping the mic instance to dev/null.
-
-## SenOS (In Development)
-
-An Arch Linux-based operating system for keyboard-oriented users who prefers performance over anything
-
-`Linux` `Bash` `i3` `rofi` `Python`
-
-- Used i3-gaps as a tiling window manager with custom and easier keyboard shortcuts
-- Created the Start Menu in a way that the Search also shows results from Browser Bookmarks
-- (In Progress) Making a portable dev environment with one command installation process
-
-## BRACU LMS All in One
-
-Get course deadlines, exam schedules and Download lecture videos from buX, a learning management platform for BRAC University
-
-`NextJS` `MaterialUI` `Puppeteer` `Axios` `Automation`
-
-- Used puppeteer with headless function to scrape the deadline in server side instead of client side making the performance 2x faster.
-
-## Kwikpic Image Optimizer
-
-A GUI Based desktop app made with PyQT6 which can be used for optimize large image files and reduce the file size without losing much quality
-
-`Python` `pyqt` `opencv`
-
-- Used threading to improve multi-core performance and scaling
-
-### . . . and a lot [`More`](https://www.notion.so/Projects-9263845c792c49f3aac07ff2a38d5c9d?pvs=21)
+See [Projects](/projects)
 
 ---
 
 ## 🛠 Skills
 
-Languages: `Python`, `JavaScript`, `TypeScript`, `HTML5`, `LaTex`, `SQL`
+ML/AI/DS: `scikit`, `NumPy`, `pandas`, `TensorFlow`, `NLP`, `OpenCV`
 
-Frameworks: `NextJS`, `Flask`, `FastAPI`, `Django`
+Languages: `Python`, `TypeScript`, `JavaScript`, `HTML5`, `LaTex`, `SQL`
 
-Libraries: `React`, `PyQt5`, `Prisma`, `NextAuth`, `Tkinter`, `Selenium`
+Frameworks: `NextJS`, `FastAPI`, `Django`, `Flask`,
 
-ML/AI: `scikit`, `NumPy`, `pandas`, `TensorFlow`, `NLP`, `OpenCV`
-
-Frontend: `TailwindCSS`, `Bootstrap`, `MaterialUI`
+Libraries: `React`, `PyQt5`, `TailwindCSS`, `Prisma`, `Tkinter`, `Selenium`
 
 Cloud: `Docker`, `AWS`, `Firebase`
 
-Others: `Problem Solving`, `Git`, `Linux`, `Web Scraping`, `Automation`, `CI/CD`, etc.
+Others: `Git`, `Linux`, `Web Scraping`, `Automation`, `CI/CD`, etc.
 
 ---
 
