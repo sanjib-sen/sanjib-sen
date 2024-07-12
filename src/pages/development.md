@@ -82,15 +82,11 @@ See [Projects](/projects)
 
 Languages: `Python`, `TypeScript`, `JavaScript`, `HTML5`, `SQL`
 
-Frameworks: `NextJS`, `FastAPI`, `Django`, `Flask`
+Frameworks: `NextJS`, `FastAPI`, `Django`, `Flask`, `Express`
 
-Libraries: `React`, `TailwindCSS`, `PyQt5`, , `Drizzle`, `Selenium`
+Libraries: `React`, `TailwindCSS`, `PyQt5`, `trpc`, `Drizzle`, `Selenium`
 
-ML/AI/DS: `scikit`, `NumPy`, `pandas`, `TensorFlow`, `NLP`, `OpenCV`
-
-Frontend: `TailwindCSS`
-
-Cloud: `Docker`, `AWS`, `Firebase`
+Cloud: `Docker`, `AWS`, `Firebase`, `Supabase`, `Clerk`
 
 Others: `Git`, `Linux`, `Web Scraping`, `Automation`, `CI/CD`, etc.
 
