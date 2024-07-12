@@ -56,7 +56,11 @@ const { frontmatter } = Astro.props;
     // Append the progress bar to the progress container
     progressContainer.appendChild(progressBar);
   }
-  createProgressBar();
+  document.addEventListener("astro:after-swap", () => {
+    if (window.location.pathname != "/") {
+      createProgressBar();
+    }
+  });
 
   /** Update the progress bar
    *  when user scrolls */

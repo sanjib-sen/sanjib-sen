@@ -18,14 +18,14 @@ const sortedPosts = getSortedPosts(posts);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 const rootLinks: { desc: string; href: string; title: string }[] = [
   {
-    desc: "Sanjib Kumar Sen's Resume",
-    href: "/about",
-    title: "Resume",
+    desc: "About my academic journey",
+    href: "/academia",
+    title: "Academia",
   },
   {
-    desc: "All Projects Developed by Sanjib Kumar Sen",
-    href: "/projects",
-    title: "Projects",
+    desc: "About my development journey",
+    href: "/development",
+    title: "Dev",
   },
   {
     desc: "If you are a student of mine, click here",
@@ -33,8 +33,8 @@ const rootLinks: { desc: string; href: string; title: string }[] = [
     title: "Students",
   },
   {
-    title: "Blogs",
-    href: "/blogs",
+    title: "Posts",
+    href: "/posts",
     desc: "A storage for my random thoughs and ideas",
   },
   {
