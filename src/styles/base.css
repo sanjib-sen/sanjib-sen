@@ -53,6 +53,17 @@
     @apply border-2 border-skin-line;
   }
 
+  table {
+    display: block;
+    overflow-x: auto;
+    /* white-space: nowrap; */
+  }
+
+  table thead tbody {
+    display: table;
+    width: 100%;
+  }
+
   .prose {
     @apply prose-headings:!mb-3 prose-headings:!text-skin-base 
     prose-h3:italic prose-p:!text-skin-base 
