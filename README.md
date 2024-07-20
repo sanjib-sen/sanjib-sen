@@ -2,6 +2,6 @@
 
 ## TODO
 
-- [ ] Table Overflow
+- [x] Table Overflow
 - [ ] Switch Theme and Search On NavBar
 - [ ] The About Me page

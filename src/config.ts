@@ -31,6 +31,12 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
+    name: "ResearchGate",
+    href: "https://www.researchgate.net/profile/Sanjib-Sen",
+    linkTitle: `${SITE.title} on ResearchGate`,
+    active: true,
+  },
+  {
     name: "LinkedIn",
     href: "https://linkedin.com/in/sanjibsen",
     linkTitle: `${SITE.title} on LinkedIn`,
