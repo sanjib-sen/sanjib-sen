@@ -3,7 +3,7 @@ title: A complete list of National Level Olympiads in Bangladesh
 author: Sanjib Kumar Sen
 featured: false
 draft: false
-pubDatetime: 2024-08-06T02:05:51Z
+pubDatetime: 2024-07-06T02:05:51Z
 tags:
   - students
   - olympiad
