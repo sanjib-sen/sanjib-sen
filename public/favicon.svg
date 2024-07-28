@@ -1,13 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36">
-  <path fill="#000" d="M22.25 4h-8.5a1 1 0 0 0-.96.73l-5.54 19.4a.5.5 0 0 0 .62.62l5.05-1.44a2 2 0 0 0 1.38-1.4l3.22-11.66a.5.5 0 0 1 .96 0l3.22 11.67a2 2 0 0 0 1.38 1.39l5.05 1.44a.5.5 0 0 0 .62-.62l-5.54-19.4a1 1 0 0 0-.96-.73Z"/>
-  <path fill="url(#gradient)" d="M18 28a7.63 7.63 0 0 1-5-2c-1.4 2.1-.35 4.35.6 5.55.14.17.41.07.47-.15.44-1.8 2.93-1.22 2.93.6 0 2.28.87 3.4 1.72 3.81.34.16.59-.2.49-.56-.31-1.05-.29-2.46 1.29-3.25 3-1.5 3.17-4.83 2.5-6-.67.67-2.6 2-5 2Z"/>
-  <defs>
-    <linearGradient id="gradient" x1="16" x2="16" y1="32" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#000"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-	<style>
-    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
-  </style>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="180.000000pt" height="180.000000pt" viewBox="0 0 180.000000 180.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.10, written by Peter Selinger 2001-2011
+</metadata>
+<g transform="translate(0.000000,180.000000) scale(0.050000,-0.050000)"
+fill="#000000" stroke="none">
+<path d="M1526 3581 c-1363 -218 -1987 -1827 -1127 -2908 706 -888 2096 -888
+2802 0 804 1011 329 2495 -915 2858 -194 56 -567 81 -760 50z m598 -876 c196
+-87 336 -268 363 -470 l12 -95 -158 0 -157 0 -15 85 c-48 290 -540 370 -666
+108 -77 -161 33 -275 375 -388 497 -165 676 -371 603 -696 -136 -609 -1314
+-513 -1364 111 l-7 90 153 6 153 6 14 -83 c57 -335 703 -375 742 -46 19 152
+-64 221 -391 328 -568 187 -761 493 -530 844 149 226 587 326 873 200z"/>
+</g>
 </svg>
