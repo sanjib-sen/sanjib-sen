@@ -47,7 +47,7 @@ BRAC University, Dhaka – (Apr. 2019 - Jan. 2023)
 <figure>
   <img
     className="figimage"
-    src="https://www.sanjibsen.com/_next/image?url=https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fprod-files-secure.s3.us-west-2.amazonaws.com%252F1225f69d-9773-4816-8f22-dd81d969a0ca%252Fc11b0b30-b804-42be-a1be-280cb4662a5b%252Fnsys.png%3Ftable%3Dblock%26id%3D8ef802c1-e0ac-468e-b8d0-5c7040c1c10e%26cache%3Dv2&w=2048&q=75"
+    src="https://github.com/user-attachments/assets/9eaba1c7-5e99-4f06-b42b-0911e585ba16"
     alt="NSYSS 2021"
   />
   <figcaption>
