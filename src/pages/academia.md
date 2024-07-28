@@ -147,7 +147,7 @@ See [Projects](/projects)
 
 ## 🛠 Skills
 
-ML/AI/DS: `scikit`, `NumPy`, `pandas`, `TensorFlow`, `NLP`, `OpenCV`
+ML/AI/DS: `scikit`, `NumPy`, `pandas`, `NLP`, `OpenCV`
 
 Languages: `Python`, `TypeScript`, `JavaScript`, `HTML5`, `LaTex`, `SQL`
 
