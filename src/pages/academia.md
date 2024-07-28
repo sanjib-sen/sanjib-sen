@@ -4,31 +4,89 @@ title: "Academia"
 activeNav: "academia"
 ---
 
-1️⃣ Conference
+> ⬇️ To Download my Resume as PDF, Visit: [github.com/sanjib-sen/resume](https://github.com/sanjib-sen/resume)
 
-2️⃣ Research Assistantships
-
-4️⃣ Student Tutorships
-
-4️⃣ Research Works
-
-🔟 + Projects
-
-4️⃣ + Articles
-
-♾️ Many More
+## Table of contents
 
 ---
 
-⬇️ To Download my Resume as PDF, Visit: [github.com/sanjib-sen/resume](https://github.com/sanjib-sen/resume)
+## 📚 Education
+
+### BSc. in Computer Science and Engineering
+
+BRAC University, Dhaka – (Apr. 2019 - Jan. 2023)
+
+`CGPA: 3.67` `Merit-Based Scholarship` `VC’s List`
+
+**Aced Courses**: Object Oriented Programming, Data Structures and Algorithms, Computer Networking, Software Engineering, Database Systems, System Analysis and Design, etc.
 
 ---
 
-# **👩🏻‍💻** Academic Experience
+## 📜 Publications
 
-### Student Tutor / Teaching Assistant
+- [[Under Review](https://track.authorhub.elsevier.com/?uuid=d4f25c6e-4023-49d2-a76a-55030c47c90d)] **(Heliyon - Q1)** (ML) [Unveiling Shadows: A Data-driven Insight on Depression among Bangladeshi Students](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4586831) (First Author)
+- **[IEEE-ESCI-2023]** (Ml-NLP) [Techniques to Estimate the Status of Legal Proceedings Considering Sequential Text Data](https://ieeexplore.ieee.org/document/10099995) (Accepted) (Second Author)
+- [WIP] (ML) Improving the accuracy of ensemble components using stacking
 
-**_BRAC University – (Sep. 2021 - Apr. 2022) - Dhaka, Bangladesh_**
+---
+
+## 🏢 Conferences
+
+### ESCI 2023
+
+5th IEEE International Conference on Emerging Smart Computing and Informatics - (Mar. 2023) - Pune, India
+
+- Virtually presented research paper on **Estimating the Status of Legal Proceedings using Sequential Text Data**
+
+### NSYSS 2021
+
+9th International Conference on Networking, Systems and Security - (Dec. 2021) - Cox's Bazar, Bangladesh
+
+- Presented a paper on the topic of **Fighting Depression: Psychological Approaches among Bangladeshi Students**
+
+<figure>
+  <img
+    className="figimage"
+    src="https://www.sanjibsen.com/_next/image?url=https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fprod-files-secure.s3.us-west-2.amazonaws.com%252F1225f69d-9773-4816-8f22-dd81d969a0ca%252Fc11b0b30-b804-42be-a1be-280cb4662a5b%252Fnsys.png%3Ftable%3Dblock%26id%3D8ef802c1-e0ac-468e-b8d0-5c7040c1c10e%26cache%3Dv2&w=2048&q=75"
+    alt="NSYSS 2021"
+  />
+  <figcaption>
+    Presenting our paper at NSYSS 2021
+  </figcaption>
+</figure>
+
+- Our student poster on the same topic was selected as one of the **Top 10** student posters
+
+---
+
+## 👩🏻‍💻 Experience
+
+### Software Engineer
+
+Technometrics – (Feb. 2024 - ) - Dhaka, Bangladesh
+
+`Python` `Machine Learning` `NLP` `RIVA` `Nemo` `ASR`
+
+- Engineered a horizontally and vertically scalable Automated Speech Recognition system, integrating Celery for task queuing, tracking, and monitoring, ensuring efficient and robust performance of the diarizer, punctuation, capitalisation, topic classification, and NER models
+- Built and deployed Bangla Automatic Speech Recognition (ASR) models using Nvidia Riva
+- Implemented speaker diarization using Nvidia Nemo toolkit and Titanet model for detecting and distinguishing between multiple speakers in audio recordings
+- Utilized the Flair library and BanglaBERT model for topic classification and named entity recognition (NER)
+- Applied Nvidia Nemo NLP for automatic punctuation and capitalization
+
+### Research Assistant
+
+Computing for Sustainability and Social Good (C2SG) Lab, BRACU - (Apr. 2021 -- Jul. 2023) - Dhaka, Bangladesh
+
+`LaTex` `Scikit` `Pandas` `Numpy` `Tensorflow` `Python`
+
+- Designed and distributed a comprehensive survey to gather data on Mental Health during COVID-19 among Bangladeshi university students to build a dataset of around thousand data
+- Created a script that generates Random UIDs and integrates with Google Forms using Google App Script to preserve anonymity among volunteers and track their progress while submitting consecutive forms
+- Executed data cleaning, outlier removal, encoded with One Hot Encoding, and utilized heatmap to analyze correlation between features to prepare datasets for machine learning models
+- Trained various machine learning classifiers, including SVM, KNN, GNB, DT, RFC, etc. with cross-validation
+
+### Teaching Assistant
+
+BRAC University – (Sep. 2021 - Apr. 2022) - Dhaka, Bangladesh
 
 `Python` `Google App Script` `Selenium` `Tkinter` `Web Scraping` `LaTex`
 
@@ -38,49 +96,39 @@ activeNav: "academia"
 - Made YouTube Videos on many different topics to help the students regarding their coursework
 - Created chatbot for Student Management with Google Sheets and Discord Integration
 
-### Research Assistant
+### Academic Instructor
 
-**_Digital Signal Processing (DSP) Lab, BUET – (May 2022 - Present) - Dhaka, Bangladesh_**
-
-`LaTex` `OpenCV` `Tensorflow` `Python`
-
-- Created GUI apps using PyQt that made the research work more efficient and accessible to volunteers
-- Converted Matlab libs to Python matplotlib, NumPy, and scikit-learn modules resulting in a performance improvement in model training and modularity
-- Configured TensorFlow and CUDA to use Nvidia CUDA to improve the performance of model training and testing for 50 thousand image samples by 12 times
-
-### Research Assistant
-
-**_Computing for Sustainability and Social Good (C2SG) Lab, BRACU - (Apr. 2021 -- Present) - Dhaka, Bangladesh_**
-
-`LaTex` `Scikit` `Pandas` `Numpy` `Tensorflow` `Python`
-
-- Created a script that generates Random UIDs and integrates with Google Forms using Google App Script to preserve anonymity among volunteers and track their progress while submitting consecutive forms
-- Used weighted Ensemble Components algorithm replacing traditional Stacking model which improved the stacking model accuracy by 20%
-- Converted 2x2 Confusion Matrix to a 3x3 Matrix which improved the usability of a multi-class research
-
-### Academic Instructor + Mentor
-
-**BUCC Academy _- (Sep. 2020 -- Aug. 2021) - Dhaka, Bangladesh_**
+BUCC Academy - (Sep. 2020 -- Aug. 2021) - Dhaka, Bangladesh
 
 `Python` `OOP` `Data Structures` `Algorithms` `Operating Systems`
 
-- Taught Python, OOP, Data Structures, Algorithms, and Operating Systems
+- Taught 60+ students the concept of Programming, Python, OOP, Data Structures, Algorithms, Operating Systems, and Linux
+- Took classes on competitive programming, Operating Systems and problem-solving
 
 ---
 
-# 👑 Leadership Experience
+## 👑 Mentorships
 
-### Mentor
+### Professional Mentor
 
-\*University Of Birmingham **– (Sep. 2023) - Birmingham, United Kingdom\***
+University Of Birmingham – (Sep. 2023) - Birmingham, United Kingdom
 
 `SWE` `Career` `IT` `Programming` `Tutorship`
 
-- Reviewed Final-Year Student Projects and provided suggestions and career insights as an Industry Professional}
+- Reviewed Final-Year Student Projects and provided suggestions and career insights as an Industry Professional
+
+### Student Mentor
+
+BRAC University – (Aug. 2021 - Dec. 2022) - Dhaka, Bangladesh
+
+`LaTex` `GitHub` `Markdown` `Python` `Flask`
+
+- Have done mentorship of 70+ students relating to course selection, career suggestion, academic result improvement, inspiration, and mental health
+- Created a Knowledge Base portal for students so that they can collect coursework and study resources from one place
 
 ### Director
 
-**_BRAC University Computer Club – (Apr. 2019 - Aug 2022) - Dhaka, Bangladesh_**
+BRAC University Computer Club – (Apr. 2019 - Aug 2022) - Dhaka, Bangladesh
 
 `Leadership` `Time Management` `Event Hosting & Management` `HRM` `Flask` `GitHub`
 
@@ -89,113 +137,35 @@ activeNav: "academia"
 - Managed 500+ club members, 70 Executives, and 30 Senior Executives
 - Took workshop on Git, Linux, OOP, and Publication Writing in front of 500 audience
 
-### Student Mentor
+---
 
-**_BRAC University – (Aug. 2021 - Dec. 2022) - Dhaka, Bangladesh_**
+## 🤖 Projects
 
-`LaTex` `GitHub` `Markdown` `Python` `Flask`
-
-- Have done mentorship of 70+ students relating to course selection, career suggestion, academic result improvement, inspiration, and mental health
-- Created a Knowledge Base portal for students so that they can collect coursework and study resources from one place
+See [Projects](/projects)
 
 ---
 
-# 🤖 Projects
+## 🛠 Skills
 
-## [envshh](https://www.notion.so/envshh-a3b4200beee34258a4f79f139109e826?pvs=21)
+ML/AI/DS: `scikit`, `NumPy`, `pandas`, `TensorFlow`, `NLP`, `OpenCV`
 
-[envshh - .envs made easy](http://envshh.js.org)
+Languages: `Python`, `TypeScript`, `JavaScript`, `HTML5`, `LaTex`, `SQL`
 
-A command line tool to securely and automatically manage, store environment variables.
+Frameworks: `NextJS`, `FastAPI`, `Django`, `Flask`,
 
-`Typescript` `NodeJS` `Crypto` `AES` `CyberSecurity` `Git`
+Libraries: `React`, `PyQt5`, `TailwindCSS`, `Prisma`, `Tkinter`, `Selenium`
 
-- A command-line app that is used to securely and automatically manage environment variables with version control
-- Has over 50+ weekly downloads and has been used by developers from Vercel, Nextjs, trpc, etc.
+Cloud: `Docker`, `AWS`, `Firebase`
 
-## [WebLaTex](https://www.notion.so/The-WebLaTex-858b2a278cc94f70820af51cc495c3a0?pvs=21)
-
-A complete alternative for Overleaf with VSCode + Web + Git Integration + Grammarly + Live Collaboration Support
-
-`Docker` `GitHub` `Codepaces` `Container` `LaTex` `Cloud`
-
-- Combined the concept of Docker containers and GitHub Codespaces to build an all-in-one LaTeX IDE with VSCode on the Web + Git + Grammar & Spelling Checker + Live Collaboration support which was trending on GitHub
-- It has been used by over 5700 university professors, researchers, and students from top universities of the world including MIT, Harvard, UCLA, UBC, University of Cambridge, ETH Zurich, industry professionals, and consumers
-
-## Ride With BRACU
-
-A Ride Sharing app only for BRAC University Students
-
-`Typescript` `TailwindCSS` `NextJS` `Prisma` `SWR`
-
-- Used **sessionStorage** as a middleware for fetching and sending data before DB queries which reduced the need of using frequent DB queries as well as improved the performance by 10x
-
-## stream-music-cli
-
-A command line app where users can search and play YouTube videos instantly with Voice Recognition and text commands
-
-`Python` `speech-recognition` `Bash` `pytube`
-
-- Fixed a microphone not working bug in Linux by dumping the mic instance to dev/null.
-
-## SenOS (In Development)
-
-An Arch Linux-based operating system for keyboard-oriented users who prefers performance over anything
-
-`Linux` `Bash` `i3` `rofi` `Python`
-
-- Used i3-gaps as a tiling window manager with custom and easier keyboard shortcuts
-- Created the Start Menu in a way that the Search also shows results from Browser Bookmarks
-- (In Progress) Making a portable dev environment with one command installation process
-
-## BRACU LMS All in One
-
-Get course deadlines, exam schedules and Download lecture videos from buX, a learning management platform for BRAC University
-
-`NextJS` `MaterialUI` `Puppeteer` `Axios` `Automation`
-
-- Used puppeteer with headless function to scrape the deadline in server side instead of client side making the performance 2x faster.
-
-## Kwikpic Image Optimizer
-
-A GUI Based desktop app made with PyQT6 which can be used for optimize large image files and reduce the file size without losing much quality
-
-`Python` `pyqt` `opencv`
-
-- Used threading to improve multi-core performance and scaling
-
-### . . . and a lot [`More`](https://www.notion.so/Projects-9263845c792c49f3aac07ff2a38d5c9d?pvs=21)
+Others: `Git`, `Linux`, `Web Scraping`, `Automation`, `CI/CD`, etc.
 
 ---
 
-# 🛠 Skills
+## 🥳 Achievements
 
-Languages: `Python`, `JavaScript`, `HTML5`, `LaTex`, `SQL`, `MongoDB`, `Markdown`
-
-Frameworks: `NextJS`, `Flask`, `REST`, `Django`, `Google App Script`
-
-Libraries: `React`, `Redux`, `PyQt5`, `Prisma`, `NextAuth`, `Tkinter`, `Selenium`
-
-ML/AI: `scikit`, `NumPy`, `pandas`, `TensorFlow`, `NLP`, `OpenCV`
-
-Frontend: `TailwindCSS`, `Bootstrap`, `CSS3`, `MaterialUI`
-
-Cloud: `Docker`, `GCP`, `Vercel`, `Heroku`, `Railway`, `GitHub Actions`, `Firebase`
-
-Others: `Problem Solving`, `Git`, `Linux`, `Web Scraping`, `Automation`
-
----
-
-# 🥳 Achievements
-
-- **(2023) Top 10**: ”Unveiling Shadows: A Data-driven Insight on Depression among Bangladeshi University Students” journal got listed on SSRN’s Global Top Ten download list in the Psychiatry Journals category
+- **(2023) Top 10:** Unveiling Shadows: A Data-driven Insight on Depression among Bangladeshi University Students journal got listed on **SSRN's Global Top Ten download list** in Psychiatry Journals category with 109 downloads and 216 views
 - **(2022) Top 5:** Btechwhiz - Inter-university talent hunt program by Bkash out of more than 800+ candidates
 - **(2021) Top 10:** Student Paper got selected, invited, and presented to the 8th International Conference on Networking, Systems and Security
-
-<!-- ![Presenting our research at International Conference on Network Systems and Security (NSysS 2021)](Resume%20624beb81d829441488cd6dbe4267c3b7/Untitled.png) -->
-
-<!-- Presenting our research at International Conference on Network Systems and Security (NSysS 2021) -->
-
 - **(2021) Champion:** Competitive Programming Contest Organized by Sohopathi, out of 3500 candidates
 - **(2020, 2021) Top 3:** Intra-University Competitive Programming Contest, BRAC University
 - **(2019) Champion:** Technology-based Article Writing Competition, MSW Science Fest, out of 150+ submissions
@@ -203,43 +173,17 @@ Others: `Problem Solving`, `Git`, `Linux`, `Web Scraping`, `Automation`
 
 ---
 
-# 📚 Education
+## ▶️ Videos
 
-## Computer Science and Engineering
-
-BRAC University*, Dhaka – (Apr. 2019 - Dec. 2022)*
-
-`CGPA: 3.67` | `Merit-Based Scholarship` | `VC’s List`
-
-**Aced Courses**: Object Oriented Programming, Data Structures and Algorithms, Computer Networking, Software Engineering, Database Systems, System Analysis and Design, etc.
+- **(NLP)** [Usage of Unix tools for Crude Tokenization and Normalization](https://www.youtube.com/watch?v=dW93mu2deYo)
+- **(NLP)** [Usage of Lexicons for Sentiment, Affect, and Connotation](https://www.youtube.com/watch?v=6-PlNwgJEh8)
+- **(NLP)** [Techniques to Estimate the Status of Legal Proceedings Considering Sequential Text Data](https://www.youtube.com/watch?v=Tadl-zw2rcQ)
+- **(NLP)** (Paper Review) [Usage of Unix tools for Crude Tokenization and Normalization](https://www.youtube.com/watch?v=2CFl_7DLukg)
+- **(LaTeX)** [(Bangla) WebLaTex Enjoy VSCode + Latex + Git from your browser](https://www.youtube.com/watch?v=t8-3ylOtQLY)
 
 ---
 
-# 📜 Research and Publications
-
-- [WIP] (ML) Improving the accuracy of ensemble components using stacking
-- [Under Review] (Heliyon) Unveiling Shadows: A Data-driven Insight on Depression among Bangladeshi Students
-- [WIP] (ML, IP) Breast cancer detection and prediction using a combination of multiple technologies
-- `**[IEEE Emerging Smart Computing and Informatics ESCI-2023]**` (NLP) Techniques to Estimate the Status of Legal Proceedings Considering Sequential Text Data (Accepted)
-- (WIP) (NLP) Sentimental Analysis using word embedding
-
----
-
-# 📄 Research Interests
-
-HCI, Cloud Computing, NLP, Image Processing, ML, DL, IoT, Embedded Systems
-
----
-
-# ▶️ Videos
-
-- (NLP) Techniques to Estimate the Status of Legal Proceedings Considering Sequential Text Data
-- (NLP) Usage of Lexicons for Sentiment, Affect, and Connotation
-- (NLP) Usage of Unix tools for Crude Tokenization and Normalization
-
----
-
-# 📄 Articles and Stories
+## 📄 Articles and Stories
 
 - Ram Optimization: How Random Access Memory works in different Operating Systems
 - ARM Architecture: Could this be the future of computing?

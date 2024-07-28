@@ -18,29 +18,24 @@ const sortedPosts = getSortedPosts(posts);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 const rootLinks: { desc: string; href: string; title: string }[] = [
   {
-    desc: "Sanjib Kumar Sen's Resume",
-    href: "/about",
-    title: "Resume",
+    desc: "About my academic journey",
+    href: "/academia",
+    title: "Academia",
   },
   {
-    desc: "All Projects Developed by Sanjib Kumar Sen",
-    href: "/projects",
-    title: "Projects",
+    desc: "About my development journey",
+    href: "/development",
+    title: "Dev",
   },
   {
     desc: "If you are a student of mine, click here",
-    href: "/students",
+    href: "/tags/students",
     title: "Students",
   },
   {
-    title: "Blogs",
-    href: "/blogs",
+    title: "Posts",
+    href: "/posts",
     desc: "A storage for my random thoughs and ideas",
-  },
-  {
-    title: "Moments",
-    href: "/moments",
-    desc: "Some moments I cherish",
   },
 ];
 const socialCount = SOCIALS.filter(social => social.active).length;
@@ -69,20 +64,28 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        Hello World 👋,
-        <br />
-        Welcome to a world where creativity meets innovation. I'm Sanjib Kumar Sen,
-        a Researcher, Software Developer, and Linux, OS and Programming Enthusiast
-        who loves to Develop, Analyze and Innovate.
+        Hey There! 👋,
+        <!-- <br /> -->
+        <!-- <span class="md:inline flex justify-center"> -->
+        <!--   <img -->
+        <!--     alt="HACKERMAN lol" -->
+        <!--     class="md:float-right ring-blue m-4 mr-4 h-48 w-48 rounded-full ring-4 dark:text-white" -->
+        <!--     src="https://github.com/user-attachments/assets/b3157d32-6755-4d11-a35a-a2c3e9173441" -->
+        <!--   /> -->
+        <!-- </span> -->
+        I'm Sanjib Kumar Sen, a software engineer who loves making machines understand
+        human languages. I've built some cool stuff, like scalable speech recognition
+        systems and military recruitment platforms. Now, I'm chasing a PhD in NLP
+        and/or ImageVision to unlock even more secrets of the computers and humans.
       </p>
       <p>
         Check out the
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="/about"
         >
           about
-        </LinkButton> to learn more about me.
+        </LinkButton> section to learn more about me.
       </p>
       {
         // only display if at least one social link is enabled
