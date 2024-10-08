@@ -1,31 +1,27 @@
 {
-  "name": "astro-paper",
-  "version": "4.2.0",
+  "name": "sanjibsen.com",
+  "version": "4.5.1",
   "private": false,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && jampack ./dist",
+    "build": "astro build",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
     "format:check": "prettier --check . --plugin=prettier-plugin-astro",
     "format": "prettier --write . --plugin=prettier-plugin-astro",
-    "cz": "cz",
-    "prepare": "husky",
     "lint": "eslint ."
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/mdx": "^3.1.7",
     "@astrojs/rss": "^4.0.7",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^4.15.12",
-    "caniuse-lite": "^1.0.30001667",
-    "eslint-plugin-jsx-a11y": "^6.10.0",
     "fuse.js": "^7.0.0",
-    "github-slugger": "^2.0.0",
+    "lodash.kebabcase": "^4.1.1",
     "mdast-util-to-string": "^4.0.0",
-    "reading-time": "^1.5.0",
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
     "satori": "^0.11.2",
@@ -39,28 +35,20 @@
     "@divriots/jampack": "^0.28.0",
     "@tailwindcss/typography": "^0.5.15",
     "@types/github-slugger": "^2.0.0",
+    "@types/lodash.kebabcase": "^4.1.9",
     "@types/react": "^18.3.11",
     "@typescript-eslint/parser": "^8.8.1",
-    "commitizen": "^4.3.1",
-    "cz-conventional-changelog": "^3.3.0",
+    "astro-eslint-parser": "^1.0.3",
     "eslint": "^9.12.0",
     "eslint-plugin-astro": "^1.2.4",
+    "globals": "^15.10.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.8",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,md,mdx,json,astro}": [
-      "prettier --write --plugin=prettier-plugin-astro"
-    ]
+    "react-dom": "^18.3.1",
+    "typescript-eslint": "^8.8.1"
   }
 }

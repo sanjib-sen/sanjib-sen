@@ -231,8 +231,10 @@ const { activeNav } = Astro.props;
       const menuItems = document.querySelector("#menu-items");
 
       document.addEventListener("click", e => {
-        // @ts-ignore
-        if (!document.getElementById("header-bar")?.contains(e.target)) {
+        if (
+          !e.target &&
+          !document.getElementById("header-bar")?.contains(e.target)
+        ) {
           if (menuBtn?.getAttribute("aria-expanded") === "true") {
             menuIcon?.classList.remove("is-active");
             menuBtn.setAttribute("aria-expanded", "false");

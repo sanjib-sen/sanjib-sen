@@ -4,8 +4,11 @@ title: "About"
 activeNav: "about"
 ---
 
+import { Image } from "astro:assets";
+import profile from "../assets/images/profile.jpeg";
+
 <div class="text-wrap">
-  <img alt="HACKERMAN lol" class="m-4 rounded-full h-48 w-48 float-right mr-4 ring-[rgb(17,88,209)] ring-4 dark:text-white" src="https://github.com/user-attachments/assets/b3157d32-6755-4d11-a35a-a2c3e9173441"/>
+  <Image alt="HACKERMAN lol" class="m-4 rounded-full h-48 w-48 float-right mr-4 ring-[rgb(17,88,209)] ring-4 dark:text-white" src={profile}/>
    <p>
   Hey there! I'm Sanjib Kumar Sen, a software engineer with a knack for making machines understand human languages (yes, it's as cool as it sounds). I graduated from BRAC University with a CGPA of 3.67, acing courses like Object-Oriented Programming and Data Structures. But enough about grades—let's talk about the fun stuff.
 
@@ -20,5 +23,5 @@ When I’m not coding up a storm, I’m mentoring students, organizing tech even
 Now, I’m setting my sights on a PhD in NLP to dive even deeper into the world of machines and languages. Let’s see where this journey takes me—hopefully somewhere awesome and full of even more geeky adventures!
 
   </p>
-  <p class="text-lg pt-4"> Still not bored? Check out: </br> <a href="/academia">ACADEMIA</a> | <a href="/development">DEVELOPMENT</a> | <a href="/projects">PROJECTS</a> </p>
+  <p class="text-lg pt-4"> Still not bored? Check out: <br/> <a href="/academia">ACADEMIA</a> | <a href="/development">DEVELOPMENT</a> | <a href="/projects">PROJECTS</a> </p>
 </div>

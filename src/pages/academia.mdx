@@ -4,6 +4,9 @@ title: "Academia"
 activeNav: "academia"
 ---
 
+import { Image } from "astro:assets";
+import nsyss from "../assets/images/nsyss.webp";
+
 > ⬇️ To Download my Resume as PDF, Visit: [github.com/sanjib-sen/resume](https://github.com/sanjib-sen/resume)
 
 ## Table of contents
@@ -45,14 +48,8 @@ BRAC University, Dhaka – (Apr. 2019 - Jan. 2023)
 - Presented a paper on the topic of **Fighting Depression: Psychological Approaches among Bangladeshi Students**
 
 <figure>
-  <img
-    className="figimage"
-    src="https://github.com/user-attachments/assets/9eaba1c7-5e99-4f06-b42b-0911e585ba16"
-    alt="NSYSS 2021"
-  />
-  <figcaption>
-    Presenting our paper at NSYSS 2021
-  </figcaption>
+  <Image className="figimage" src={nsyss} alt="NSYSS 2021" />
+  <figcaption>Presenting our paper at NSYSS 2021</figcaption>
 </figure>
 
 - Our student poster on the same topic was selected as one of the **Top 10** student posters
