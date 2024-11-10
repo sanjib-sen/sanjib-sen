@@ -24,8 +24,8 @@ const {
   canonicalURL,
   pubDatetime,
   modDatetime,
-  // readingTime, // we can now directly access readingTime from frontmatter
   tags,
+  editPost,
 } = post.data;
 
 const { Content } = await post.render();
@@ -83,13 +83,15 @@ const nextPost =
       modDatetime={modDatetime}
       size="lg"
       className="my-2"
+      editPost={editPost}
+      postId={post.id}
     />
     <article id="article" class="prose mx-auto mt-8 max-w-3xl">
       <Content />
     </article>
 
     <ul class="my-8">
-      {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
+      {tags.map((tag: string) => <Tag tag={slugifyStr(tag)} />)}
     </ul>
 
     <div
@@ -192,8 +194,10 @@ const nextPost =
   /** Create a progress indicator
    *  at the top */
   function createProgressBar() {
-    // Get the Progress Container
-    const progressContainer = document.getElementById("progress-container");
+    // Create the main container div
+    const progressContainer = document.createElement("div");
+    progressContainer.className =
+      "progress-container fixed top-0 z-10 h-1 w-full bg-skin-fill";
 
     // Create the progress bar div
     const progressBar = document.createElement("div");
@@ -202,6 +206,9 @@ const nextPost =
 
     // Append the progress bar to the progress container
     progressContainer.appendChild(progressBar);
+
+    // Append the progress container to the document body or any other desired parent element
+    document.body.appendChild(progressContainer);
   }
   createProgressBar();
 

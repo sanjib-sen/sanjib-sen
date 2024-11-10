@@ -6,11 +6,17 @@ export const SITE: Site = {
   profile: "https://sanjibsen.com/",
   desc: "Sanjib Kumar Sen's Personal Website.",
   title: "Sanjib Kumar Sen",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "og-cover.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
+  showArchives: false,
+  editPost: {
+    url: "https://github.com/sanjib-sen/paperfolio/edit/main/src/content/blog",
+    text: "Suggest Changes",
+    appendFilePath: true,
+  },
 };
 
 export const LOCALE = {
@@ -19,10 +25,10 @@ export const LOCALE = {
 } as const;
 
 export const LOGO_IMAGE = {
-  enable: false,
+  enable: true,
   svg: true,
-  width: 216,
-  height: 46,
+  width: 35,
+  height: 4,
 };
 
 export const SOCIALS: SocialObjects = [
@@ -63,9 +69,9 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
   {
-    name: "Twitter",
+    name: "X",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitter`,
+    linkTitle: `${SITE.title} on X`,
     active: false,
   },
   {

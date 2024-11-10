@@ -1,16 +1,13 @@
 ---
-layout: ../layouts/AboutLayout.astro
+layout: ../layouts/PageLayout.astro
 title: "About"
 activeNav: "about"
 ---
 
-import { Image } from "astro:assets";
-import profile from "../assets/images/profile.jpeg";
-
 <div class="text-wrap">
-  <Image alt="HACKERMAN lol" class="m-4 rounded-full h-48 w-48 float-right mr-4 ring-[rgb(17,88,209)] ring-4 dark:text-white" src={profile}/>
+  <img alt="HACKERMAN lol" class="m-4 rounded-full h-48 w-48 float-right mr-4 ring-[rgb(17,88,209)] ring-4 dark:text-white" src="/assets/images/profile.jpeg"/>
    <p>
-  Hey there! I'm Sanjib Kumar Sen, a software engineer with a knack for making machines understand human languages (yes, it's as cool as it sounds). I graduated from BRAC University with a CGPA of 3.67, acing courses like Object-Oriented Programming and Data Structures. But enough about grades—let's talk about the fun stuff.
+Hey there! I'm Sanjib Kumar Sen, a software engineer with a knack for making machines understand human languages (yes, it's as cool as it sounds). I graduated from BRAC University with a CGPA of 3.67, acing courses like Object-Oriented Programming and Data Structures. But enough about grades—let's talk about the fun stuff.
 
 I've built some pretty nifty things in my development career. Ever heard of an Automated Speech Recognition system? Well, I’ve created one that's scalable both horizontally and vertically (fancy, right?). I’ve dabbled in speaker diarization, topic classification, and named entity recognition—basically, making sense of the chaos in audio recordings and texts.
 

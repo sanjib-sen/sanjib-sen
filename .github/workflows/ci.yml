@@ -15,28 +15,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
 
-    strategy:
-      matrix:
-        node-version: [18.x]
-
     steps:
       - name: "☁️ Checkout repository"
         uses: actions/checkout@v4
 
-      - name: "🔧 Setup Node.js ${{ matrix.node-version }}"
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
+      - name: "🔧 Setup Bun.js"
+        uses: oven-sh/setup-bun@v2
 
       - name: "📦 Install dependencies"
-        run: npm ci
+        run: bun install --frozen-lockfile
 
       - name: "🔎 Lint code"
-        run: npm run lint
+        run: bun run lint
 
       - name: "📝 Checking code format"
-        run: npm run format:check
+        run: bun run format:check
 
       - name: "🚀 Build the project"
-        run: npm run build
+        run: bun run build
