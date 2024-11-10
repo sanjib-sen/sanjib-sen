@@ -5,6 +5,7 @@ import LinkButton from "./LinkButton.astro";
 
 export interface Props {
   activeNav?:
+    | "/"
     | "posts"
     | "tags"
     | "about"
@@ -19,7 +20,7 @@ export interface Props {
 const { activeNav } = Astro.props;
 ---
 
-<header class="sticky top-0 z-50 bg-skin-fill">
+<header class=`sticky top-1 z-50 bg-skin-fill`>
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
     <div class="top-nav-wrap">
