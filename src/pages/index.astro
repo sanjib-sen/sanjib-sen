@@ -46,7 +46,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
 <Layout>
-  <Header />
+  <div class="z-100 fixed top-0 h-1 w-full bg-skin-fill"></div>
+  <Header activeNav="/" />
   <main id="main-content">
     <section id="hero">
       <h1>{SITE.author}</h1>
