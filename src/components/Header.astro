@@ -77,7 +77,15 @@ const { activeNav } = Astro.props;
               href="/development/"
               class={activeNav === "development" ? "active" : ""}
             >
-              Development
+              Dev
+            </a>
+          </li>
+          <li>
+            <a
+              href="/projects/"
+              class={activeNav === "projects" ? "active" : ""}
+            >
+              Projects
             </a>
           </li>
           <li>
@@ -130,7 +138,7 @@ const { activeNav } = Astro.props;
               href="/search/"
               className={`focus-outline p-3 sm:p-1 ${
                 activeNav === "search" ? "active" : ""
-              } flex`}
+              }`}
               ariaLabel="search"
               title="Search"
             >
