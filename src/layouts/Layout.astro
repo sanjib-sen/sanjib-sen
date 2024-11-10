@@ -54,7 +54,7 @@ const structuredData = {
 <!doctype html>
 <html
   lang=`${LOCALE.lang ?? "en"}`
-  class:list={`${scrollSmooth && "scroll-smooth"}`}
+  class={`${scrollSmooth && "scroll-smooth"}`}
 >
   <head>
     <meta charset="UTF-8" />
@@ -136,7 +136,7 @@ const structuredData = {
 
     <script is:inline src="/toggle-theme.js" async></script>
   </head>
-  <body class="pt-20">
+  <body>
     <slot />
   </body>
 </html>

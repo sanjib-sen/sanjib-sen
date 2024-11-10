@@ -12,10 +12,11 @@ tags:
 description: "Publications Rules for BRAC University Computer Club"
 ---
 
-> Welcome to the PRESS RELEASE and PUBLICATIONS Department of BRAC University Computer Club. There are some basic Rules for PR Writing/Editing.
-> Please check those out before writing a PR.
+Welcome to the PRESS RELEASE and PUBLICATIONS Department of BRAC University Computer Club. There are some basic Rules for PR Writing/Editing. Please check those out before writing a PR.
 
 # Guidelines For BUCC PR
+
+## Table of Contents
 
 ## Basic Rules
 
