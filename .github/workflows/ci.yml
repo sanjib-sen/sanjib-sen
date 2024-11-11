@@ -10,7 +10,7 @@ on:
   workflow_call:
 
 jobs:
-  deploy:
+  build:
     name: Code standards & build
     runs-on: ubuntu-latest
     timeout-minutes: 3
