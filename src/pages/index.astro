@@ -46,11 +46,11 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
 <Layout>
-  <div class="z-100 fixed top-0 h-1 w-full bg-skin-fill"></div>
+  <div class="sticky top-0 z-50 h-1 w-full bg-skin-fill"></div>
   <Header activeNav="/" />
   <main id="main-content">
     <section id="hero">
-      <h1>{SITE.author}</h1>
+      <h1 class="text-skin-accent">{SITE.author}</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -120,7 +120,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <li class="sm:grid-follow-col grid grid-flow-row gap-1 sm:grid-cols-8">
               <span class="flex sm:justify-end">
                 <a
-                  class="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+                  class="text-skin-accent underline decoration-dashed underline-offset-4 hover:text-skin-base"
                   href={link.href}
                 >
                   {link.title}
