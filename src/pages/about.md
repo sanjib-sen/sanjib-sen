@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/PageLayout.astro
-title: "About"
+title: "About Me"
 activeNav: "about"
 ---
 
