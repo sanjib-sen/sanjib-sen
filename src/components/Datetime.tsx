@@ -53,9 +53,7 @@ export default function Datetime({
           />
         </span>
       </div>
-      <div>
-        <EditPost editPost={editPost} postId={postId} />
-      </div>
+      {size == "lg" && <EditPost editPost={editPost} postId={postId} />}
     </div>
   );
 }
