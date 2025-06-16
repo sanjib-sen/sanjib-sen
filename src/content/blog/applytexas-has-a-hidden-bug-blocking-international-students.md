@@ -24,15 +24,15 @@ Then ApplyTexas decides to throw a wrench in everything.
 
 ## **The Digital Nightmare Begins**
 
-After spending days crafting the perfect application, I hit submit and... 
+After spending days crafting the perfect application, I hit submit and...
 
 **ERROR. "About You" section incomplete.**
 
-*Wait, what?* I'd filled every single field. Triple-checked everything. The main dashboard shows 100% completion of "Core Questions". The form looked complete, but the system was saying otherwise.
+_Wait, what?_ I'd filled every single field. Triple-checked everything. The main dashboard shows 100% completion of "Core Questions". The form looked complete, but the system was saying otherwise.
 
 <img width="800" alt="Screenshot 2025-06-17 at 12 24 52 AM" src="https://github.com/user-attachments/assets/fe219a62-5723-4868-94ae-8071e9dd14b1" />
 
-*Caption: My contact form, completely filled out but somehow "incomplete"*
+_Caption: My contact form, completely filled out but somehow "incomplete"_
 
 With my SWE background, I knew something was wrong. But I also knew I had **very limited time** to either fix this or watch my PhD opportunity slip away.
 
@@ -41,7 +41,7 @@ With my SWE background, I knew something was wrong. But I also knew I had **very
 After hours of debugging (yes, I was THAT desperate, also thanks to my adrenaline rush whenever I find a bug), I discovered something that shocked me:
 
 ✅ **Put in ANY US address** → Application submits perfectly  
-❌ **Use my real Bangladesh address** → System breaks  
+❌ **Use my real Bangladesh address** → System breaks
 
 The system had a critical flaw that specifically affected international students - and nobody seemed to know about it.
 
@@ -51,9 +51,10 @@ Time for some digital forensics. I fired up Edge DevTools like I always do every
 
 <img width="1003" alt="Screenshot 2025-06-17 at 12 32 54 AM" src="https://github.com/user-attachments/assets/c69ca131-3ce0-469d-8be7-7b75b77d12de" />
 
-*Caption: The smoking gun - US address sends state "AL", Bangladesh sends "null"*
+_Caption: The smoking gun - US address sends state "AL", Bangladesh sends "null"_
 
-**THE DISCOVERY:** 
+**THE DISCOVERY:**
+
 - US students: `"permanentState": "AL"` ✅
 - International students: `"permanentState": null` ❌
 
@@ -62,6 +63,7 @@ The backend was rejecting null state values, but the frontend only sent states f
 ## **The Make-or-Break Decision: Hack or Give Up?**
 
 With my deadline rapidly approaching, I had two choices:
+
 1. Accept defeat and miss the opportunity
 2. Manually modify the API request and fix it myself
 
@@ -80,13 +82,13 @@ Here's where my SWE skills came in clutch:
 
 <img width="1191" alt="Screenshot 2025-06-17 at 12 38 02 AM" src="https://github.com/user-attachments/assets/cb662e9b-29cc-45e1-a023-22342e5e9564" />
 
-*Caption: The magic moment - Modifying the Form Submission Request Payload and getting success"*
+_Caption: The magic moment - Modifying the Form Submission Request Payload and getting success"_
 
 ## **Victory Screenshot**
 
 <img width="866" alt="Screenshot 2025-06-17 at 12 33 39 AM" src="https://github.com/user-attachments/assets/a01723ee-00c4-4400-af9b-b1b79e5627c0" />
 
-*Caption: All sections finally showing as complete - PhD dreams back on track!*
+_Caption: All sections finally showing as complete - PhD dreams back on track!_
 
 ## **The Real Problem**
 
@@ -104,8 +106,9 @@ How many brilliant minds never made it to Texas because of this overlooked techn
 If you're reading this in a panic about your application deadline, here's your technical lifeline:
 
 ### **The Developer Workaround:**
+
 1. Open DevTools (F12)
-2. Submit your international address 
+2. Submit your international address
 3. Find the failed POST request
 4. Right-click → "Edit and Resend"
 5. Change `"permanentState": null` to `"permanentState": "YourCity"`
@@ -129,6 +132,7 @@ If you're reading this: there's a simple fix that could help thousands of studen
 ```
 
 Or alternatively:
+
 ```diff
 // Frontend fix
 - Only send permanentState for US addresses
